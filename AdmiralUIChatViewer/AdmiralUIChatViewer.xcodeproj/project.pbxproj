@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD203D382B16659D00ABD059 /* AdmiralUIChatViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D372B16659D00ABD059 /* AdmiralUIChatViewerApp.swift */; };
+		FD203D3C2B16659E00ABD059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD203D3B2B16659E00ABD059 /* Assets.xcassets */; };
+		FD203D3F2B16659E00ABD059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD203D3E2B16659E00ABD059 /* Preview Assets.xcassets */; };
+		FD203D492B16662000ABD059 /* AdmiralChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FD203D482B16662000ABD059 /* AdmiralChatSwiftUI */; };
+		FD203D4D2B16670500ABD059 /* NavigationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D4C2B16670500ABD059 /* NavigationContentView.swift */; };
+		FD203D4F2B16671200ABD059 /* NavigationContentViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D4E2B16671200ABD059 /* NavigationContentViewScheme.swift */; };
+		FD203D522B16679700ABD059 /* ChatSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D512B16679700ABD059 /* ChatSwiftUIView.swift */; };
+		FD203D542B1667C600ABD059 /* SwiftUIChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D532B1667C600ABD059 /* SwiftUIChatItem.swift */; };
+		FD203D562B1667F200ABD059 /* SwiftUIContentViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D552B1667F200ABD059 /* SwiftUIContentViewScheme.swift */; };
+		FD203D582B16685D00ABD059 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D572B16685D00ABD059 /* NavigationBarModifier.swift */; };
+		FD203D6C2B1668C000ABD059 /* SwiftUITextMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D5B2B1668C000ABD059 /* SwiftUITextMessageViewModel.swift */; };
+		FD203D6D2B1668C000ABD059 /* SwiftUITextMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D5C2B1668C000ABD059 /* SwiftUITextMessageView.swift */; };
+		FD203D6E2B1668C000ABD059 /* SwiftUIUploadingPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D5E2B1668C000ABD059 /* SwiftUIUploadingPhotoView.swift */; };
+		FD203D6F2B1668C000ABD059 /* SwiftUIUploadingPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D5F2B1668C000ABD059 /* SwiftUIUploadingPhotoViewModel.swift */; };
+		FD203D702B1668C000ABD059 /* SwiftUIChatInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D612B1668C000ABD059 /* SwiftUIChatInputViewModel.swift */; };
+		FD203D712B1668C000ABD059 /* SwiftUIChatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D622B1668C000ABD059 /* SwiftUIChatInputView.swift */; };
+		FD203D722B1668C000ABD059 /* FilesPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D642B1668C000ABD059 /* FilesPickerView.swift */; };
+		FD203D732B1668C000ABD059 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D652B1668C000ABD059 /* ImagePicker.swift */; };
+		FD203D742B1668C000ABD059 /* SwiftUITextOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D672B1668C000ABD059 /* SwiftUITextOperation.swift */; };
+		FD203D752B1668C000ABD059 /* SwiftUITextOperationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D682B1668C000ABD059 /* SwiftUITextOperationViewModel.swift */; };
+		FD203D762B1668C000ABD059 /* SwiftUIUploadingFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D6A2B1668C000ABD059 /* SwiftUIUploadingFileView.swift */; };
+		FD203D772B1668C000ABD059 /* SwiftUIUploadFileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D6B2B1668C000ABD059 /* SwiftUIUploadFileViewModel.swift */; };
+		FD203D7A2B166A0C00ABD059 /* AdmiralTabsSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FD203D792B166A0C00ABD059 /* AdmiralTabsSwiftUI */; };
+		FD203D802B166C7900ABD059 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203D7F2B166C7900ABD059 /* Assets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD203D342B16659D00ABD059 /* AdmiralUIChatViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmiralUIChatViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD203D372B16659D00ABD059 /* AdmiralUIChatViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmiralUIChatViewerApp.swift; sourceTree = "<group>"; };
+		FD203D3B2B16659E00ABD059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD203D3E2B16659E00ABD059 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD203D4C2B16670500ABD059 /* NavigationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContentView.swift; sourceTree = "<group>"; };
+		FD203D4E2B16671200ABD059 /* NavigationContentViewScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContentViewScheme.swift; sourceTree = "<group>"; };
+		FD203D512B16679700ABD059 /* ChatSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSwiftUIView.swift; sourceTree = "<group>"; };
+		FD203D532B1667C600ABD059 /* SwiftUIChatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChatItem.swift; sourceTree = "<group>"; };
+		FD203D552B1667F200ABD059 /* SwiftUIContentViewScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContentViewScheme.swift; sourceTree = "<group>"; };
+		FD203D572B16685D00ABD059 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		FD203D5B2B1668C000ABD059 /* SwiftUITextMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUITextMessageViewModel.swift; sourceTree = "<group>"; };
+		FD203D5C2B1668C000ABD059 /* SwiftUITextMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUITextMessageView.swift; sourceTree = "<group>"; };
+		FD203D5E2B1668C000ABD059 /* SwiftUIUploadingPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIUploadingPhotoView.swift; sourceTree = "<group>"; };
+		FD203D5F2B1668C000ABD059 /* SwiftUIUploadingPhotoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIUploadingPhotoViewModel.swift; sourceTree = "<group>"; };
+		FD203D612B1668C000ABD059 /* SwiftUIChatInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIChatInputViewModel.swift; sourceTree = "<group>"; };
+		FD203D622B1668C000ABD059 /* SwiftUIChatInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIChatInputView.swift; sourceTree = "<group>"; };
+		FD203D642B1668C000ABD059 /* FilesPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesPickerView.swift; sourceTree = "<group>"; };
+		FD203D652B1668C000ABD059 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FD203D672B1668C000ABD059 /* SwiftUITextOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUITextOperation.swift; sourceTree = "<group>"; };
+		FD203D682B1668C000ABD059 /* SwiftUITextOperationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUITextOperationViewModel.swift; sourceTree = "<group>"; };
+		FD203D6A2B1668C000ABD059 /* SwiftUIUploadingFileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIUploadingFileView.swift; sourceTree = "<group>"; };
+		FD203D6B2B1668C000ABD059 /* SwiftUIUploadFileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIUploadFileViewModel.swift; sourceTree = "<group>"; };
+		FD203D7F2B166C7900ABD059 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD203D312B16659D00ABD059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD203D492B16662000ABD059 /* AdmiralChatSwiftUI in Frameworks */,
+				FD203D7A2B166A0C00ABD059 /* AdmiralTabsSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD203D2B2B16659D00ABD059 = {
+			isa = PBXGroup;
+			children = (
+				FD203D362B16659D00ABD059 /* AdmiralUIChatViewer */,
+				FD203D352B16659D00ABD059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD203D352B16659D00ABD059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D342B16659D00ABD059 /* AdmiralUIChatViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD203D362B16659D00ABD059 /* AdmiralUIChatViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D7D2B166C1F00ABD059 /* Resources */,
+				FD203D4A2B1666DE00ABD059 /* Presentation */,
+				FD203D372B16659D00ABD059 /* AdmiralUIChatViewerApp.swift */,
+				FD203D3B2B16659E00ABD059 /* Assets.xcassets */,
+				FD203D3D2B16659E00ABD059 /* Preview Content */,
+			);
+			path = AdmiralUIChatViewer;
+			sourceTree = "<group>";
+		};
+		FD203D3D2B16659E00ABD059 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D3E2B16659E00ABD059 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD203D4A2B1666DE00ABD059 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D502B16678D00ABD059 /* Chat */,
+				FD203D4B2B1666FA00ABD059 /* Navigation */,
+				FD203D552B1667F200ABD059 /* SwiftUIContentViewScheme.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FD203D4B2B1666FA00ABD059 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D4C2B16670500ABD059 /* NavigationContentView.swift */,
+				FD203D4E2B16671200ABD059 /* NavigationContentViewScheme.swift */,
+				FD203D572B16685D00ABD059 /* NavigationBarModifier.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FD203D502B16678D00ABD059 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D602B1668C000ABD059 /* Input */,
+				FD203D632B1668C000ABD059 /* Pickers */,
+				FD203D5A2B1668C000ABD059 /* TextMessage */,
+				FD203D662B1668C000ABD059 /* TextOperation */,
+				FD203D692B1668C000ABD059 /* UploadingFile */,
+				FD203D5D2B1668C000ABD059 /* UploadingPhoto */,
+				FD203D512B16679700ABD059 /* ChatSwiftUIView.swift */,
+				FD203D532B1667C600ABD059 /* SwiftUIChatItem.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		FD203D5A2B1668C000ABD059 /* TextMessage */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D5B2B1668C000ABD059 /* SwiftUITextMessageViewModel.swift */,
+				FD203D5C2B1668C000ABD059 /* SwiftUITextMessageView.swift */,
+			);
+			name = TextMessage;
+			path = ../../../../../Desktop/chat/TextMessage;
+			sourceTree = "<group>";
+		};
+		FD203D5D2B1668C000ABD059 /* UploadingPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D5E2B1668C000ABD059 /* SwiftUIUploadingPhotoView.swift */,
+				FD203D5F2B1668C000ABD059 /* SwiftUIUploadingPhotoViewModel.swift */,
+			);
+			name = UploadingPhoto;
+			path = ../../../../../Desktop/chat/UploadingPhoto;
+			sourceTree = "<group>";
+		};
+		FD203D602B1668C000ABD059 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D612B1668C000ABD059 /* SwiftUIChatInputViewModel.swift */,
+				FD203D622B1668C000ABD059 /* SwiftUIChatInputView.swift */,
+			);
+			name = Input;
+			path = ../../../../../Desktop/chat/Input;
+			sourceTree = "<group>";
+		};
+		FD203D632B1668C000ABD059 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D642B1668C000ABD059 /* FilesPickerView.swift */,
+				FD203D652B1668C000ABD059 /* ImagePicker.swift */,
+			);
+			name = Pickers;
+			path = ../../../../../Desktop/chat/Pickers;
+			sourceTree = "<group>";
+		};
+		FD203D662B1668C000ABD059 /* TextOperation */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D672B1668C000ABD059 /* SwiftUITextOperation.swift */,
+				FD203D682B1668C000ABD059 /* SwiftUITextOperationViewModel.swift */,
+			);
+			name = TextOperation;
+			path = ../../../../../Desktop/chat/TextOperation;
+			sourceTree = "<group>";
+		};
+		FD203D692B1668C000ABD059 /* UploadingFile */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D6A2B1668C000ABD059 /* SwiftUIUploadingFileView.swift */,
+				FD203D6B2B1668C000ABD059 /* SwiftUIUploadFileViewModel.swift */,
+			);
+			name = UploadingFile;
+			path = ../../../../../Desktop/chat/UploadingFile;
+			sourceTree = "<group>";
+		};
+		FD203D7D2B166C1F00ABD059 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD203D7F2B166C7900ABD059 /* Assets.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD203D332B16659D00ABD059 /* AdmiralUIChatViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD203D422B16659E00ABD059 /* Build configuration list for PBXNativeTarget "AdmiralUIChatViewer" */;
+			buildPhases = (
+				FD203D302B16659D00ABD059 /* Sources */,
+				FD203D312B16659D00ABD059 /* Frameworks */,
+				FD203D322B16659D00ABD059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmiralUIChatViewer;
+			packageProductDependencies = (
+				FD203D482B16662000ABD059 /* AdmiralChatSwiftUI */,
+				FD203D792B166A0C00ABD059 /* AdmiralTabsSwiftUI */,
+			);
+			productName = AdmiralUIChatViewer;
+			productReference = FD203D342B16659D00ABD059 /* AdmiralUIChatViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD203D2C2B16659D00ABD059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					FD203D332B16659D00ABD059 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = FD203D2F2B16659D00ABD059 /* Build configuration list for PBXProject "AdmiralUIChatViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD203D2B2B16659D00ABD059;
+			packageReferences = (
+				FD203D452B1665D100ABD059 /* XCLocalSwiftPackageReference ".." */,
+				FD203D782B166A0C00ABD059 /* XCRemoteSwiftPackageReference "AdmiralTabsSwiftUI" */,
+			);
+			productRefGroup = FD203D352B16659D00ABD059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD203D332B16659D00ABD059 /* AdmiralUIChatViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD203D322B16659D00ABD059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD203D3F2B16659E00ABD059 /* Preview Assets.xcassets in Resources */,
+				FD203D3C2B16659E00ABD059 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD203D302B16659D00ABD059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD203D542B1667C600ABD059 /* SwiftUIChatItem.swift in Sources */,
+				FD203D722B1668C000ABD059 /* FilesPickerView.swift in Sources */,
+				FD203D6E2B1668C000ABD059 /* SwiftUIUploadingPhotoView.swift in Sources */,
+				FD203D762B1668C000ABD059 /* SwiftUIUploadingFileView.swift in Sources */,
+				FD203D6D2B1668C000ABD059 /* SwiftUITextMessageView.swift in Sources */,
+				FD203D4D2B16670500ABD059 /* NavigationContentView.swift in Sources */,
+				FD203D702B1668C000ABD059 /* SwiftUIChatInputViewModel.swift in Sources */,
+				FD203D582B16685D00ABD059 /* NavigationBarModifier.swift in Sources */,
+				FD203D802B166C7900ABD059 /* Assets.swift in Sources */,
+				FD203D4F2B16671200ABD059 /* NavigationContentViewScheme.swift in Sources */,
+				FD203D522B16679700ABD059 /* ChatSwiftUIView.swift in Sources */,
+				FD203D6F2B1668C000ABD059 /* SwiftUIUploadingPhotoViewModel.swift in Sources */,
+				FD203D6C2B1668C000ABD059 /* SwiftUITextMessageViewModel.swift in Sources */,
+				FD203D712B1668C000ABD059 /* SwiftUIChatInputView.swift in Sources */,
+				FD203D732B1668C000ABD059 /* ImagePicker.swift in Sources */,
+				FD203D562B1667F200ABD059 /* SwiftUIContentViewScheme.swift in Sources */,
+				FD203D382B16659D00ABD059 /* AdmiralUIChatViewerApp.swift in Sources */,
+				FD203D742B1668C000ABD059 /* SwiftUITextOperation.swift in Sources */,
+				FD203D772B1668C000ABD059 /* SwiftUIUploadFileViewModel.swift in Sources */,
+				FD203D752B1668C000ABD059 /* SwiftUITextOperationViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD203D402B16659E00ABD059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD203D412B16659E00ABD059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD203D432B16659E00ABD059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralUIChatViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdmiralUIChatViewer.com.ru.AdmiralUIChatViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD203D442B16659E00ABD059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralUIChatViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdmiralUIChatViewer.com.ru.AdmiralUIChatViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD203D2F2B16659D00ABD059 /* Build configuration list for PBXProject "AdmiralUIChatViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD203D402B16659E00ABD059 /* Debug */,
+				FD203D412B16659E00ABD059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD203D422B16659E00ABD059 /* Build configuration list for PBXNativeTarget "AdmiralUIChatViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD203D432B16659E00ABD059 /* Debug */,
+				FD203D442B16659E00ABD059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FD203D452B1665D100ABD059 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD203D782B166A0C00ABD059 /* XCRemoteSwiftPackageReference "AdmiralTabsSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/admiral-team/AdmiralTabsSwiftUI.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD203D482B16662000ABD059 /* AdmiralChatSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdmiralChatSwiftUI;
+		};
+		FD203D792B166A0C00ABD059 /* AdmiralTabsSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD203D782B166A0C00ABD059 /* XCRemoteSwiftPackageReference "AdmiralTabsSwiftUI" */;
+			productName = AdmiralTabsSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FD203D2C2B16659D00ABD059 /* Project object */;
+}
